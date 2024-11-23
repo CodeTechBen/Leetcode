@@ -1,6 +1,6 @@
 import pytest
 
-from romantointchall import romanToInt
+from oneliner import romanToInt
 
 @pytest.mark.parametrize(
     "roman, expected",

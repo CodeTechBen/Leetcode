@@ -12,7 +12,7 @@ def romanToInt(s: str) -> int:
     total = 0
     prev_value = 0
     
-    for char in reversed(s):
+    for char in s[::-1]:
         value = point_map[char]
         if value < prev_value:
             total -= value
