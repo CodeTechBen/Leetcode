@@ -1,6 +1,6 @@
 import pytest
 
-from valid_parenthasis import isValid
+from better_solution import isValid
 
 @pytest.mark.parametrize(
     "input, expected",
